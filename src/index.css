@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-position: top left;
     overflow-wrap: break-word; */
-    background-image: url('C:\Users\Pratik Kumar\Desktop\login\src\assets\Background.svg');
+    background-image: url('./assets/Background.svg');
 }
 
 code {
