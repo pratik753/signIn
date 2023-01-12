@@ -1,0 +1,149 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 378px;
+    height: 185px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* background-color: aqua; */
+}
+
+.solidLine {
+    /* Solid_lines */
+    width: 51px;
+    height: 48px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rectangle1 {
+    /* Rectangle Copy 2 */
+    position: absolute;
+    left: 59.92%;
+    right: 18.42%;
+    top: 11.96%;
+    bottom: 43.15%;
+    /* Primary color */
+    background: #3766E8;
+    border-radius: 100px;
+    transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+}
+
+.rectangle2 {
+    /* Rectangle Copy */
+    position: absolute;
+    left: 23.31%;
+    right: 55.02%;
+    top: 18.03%;
+    bottom: -6.3%;
+    /* Primary color */
+    background: #3766E8;
+    border-radius: 100px;
+    transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+}
+
+.rectangle3 {
+    /* Rectangle */
+    position: absolute;
+    left: 0%;
+    right: 78.34%;
+    top: 50.12%;
+    bottom: -8.13%;
+    /* Primary color */
+    background: #3766E8;
+    border-radius: 100px;
+    transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+}
+
+.heading3 {
+    /* It’s a delight to have you onboard */
+    width: 378px;
+    height: 60px;
+    /* Heading 3 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    /* Heading Primary */
+    color: #212121;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.par {
+    /* Help us know you better. (This is how we optimize Wobot as per your business needs) */
+    width: 378px;
+    height: 37px;
+    /* Caption */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 131% */
+    text-align: center;
+    /* Text Primary */
+    color: #545454;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.formDiv {
+    /* Form Fields */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 368px;
+    height: 262px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.inputField {
+    /* Input Field */
+    width: 368px;
+    height: 82px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fieldLabel {
+    /* Field Label */
+    position: absolute;
+    width: 105px;
+    height: 17px;
+    left: 0px;
+    top: 0px;
+    /* Label */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* Text Primary */
+    color: #545454;
+}
